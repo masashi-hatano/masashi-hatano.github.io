@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Hyper Vision Research Laboratory</p>
-    <p>(HVRL) @ Keio Univ.</p>
+    Hyper Vision Research Laboratory
+    (HVRL) @ Keio Univ.
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
