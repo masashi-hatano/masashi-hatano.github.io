@@ -25,6 +25,3 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 I am currently pursuing my first year as a PhD candidate at [Keio University](http://www.hvrl.ics.keio.ac.jp/) under the guidance of [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). My research is primarily focused on the analysis and comprehension of human behavior and environmental interactions within egocentric perspectives. This field intrigues me due to its vast potential applications, ranging from the development of wearable technology like smart glasses to the advancement of assistive robotic systems. My academic journey is driven by a deep-seated passion for exploring and innovating within this domain.
-
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=HoR9mK7Hw4WhoC47y2o7cpCiDTwJUtwcNOSfYSUgZjc" width="10" height="10"></script>
-
