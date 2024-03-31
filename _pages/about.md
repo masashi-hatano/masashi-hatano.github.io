@@ -28,4 +28,4 @@ I am a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) under t
 
 My research interests span the broad area of machine learning, computer vision, egocentric vision, multimodal learning, future forecasting, and action recognition.
 
-In 2023, I obtained a Master's degree in computer science from [Keio University](https://www.keio.ac.jp/en/), Japan, and an engineering degree from [CentraleSupélec](https://www.centralesupelec.fr/en), France, in 2023 as part of a double degree program.
+In 2023, I obtained a Master's degree in computer science from [Keio University](https://www.keio.ac.jp/en/), Japan, and an engineering degree from [CentraleSupélec](https://www.centralesupelec.fr/en), France, as part of a double degree program.
