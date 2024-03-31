@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-10
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our team secured 2nd Place and $2,000 Prize in the Ego4D Future Hand Prediction Challenge at ECCV '22! :2nd_place_medal:
