@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be staying at the University of Bristol as a visiting PhD studnet starting from this May!
+I will be visiting at the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD studnet starting from this May!

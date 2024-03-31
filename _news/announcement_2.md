@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I attended ECCV '22 in Tel-Aviv.
+I attended [ECCV '22](https://eccv2022.ecva.net/) in Tel-Aviv.
