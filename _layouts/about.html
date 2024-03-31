@@ -45,12 +45,10 @@ layout: default
             {{ content }}
           </div>
 
-          <hr width="100%" size="2">
-
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <div style="display: flex; align-items: center;">
-              <h2 style="margin-right: 10px;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+              <h2 style="margin-right: 20px;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
               <hr style="flex: 1; border: none; height: 1px; background-color: black;">
             </div>
             {%- include news.html limit=true %}
@@ -65,7 +63,7 @@ layout: default
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <div style="display: flex; align-items: center;">
-              <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+              <h2 style="margin-right: 20px;"></h2><h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
               <hr style="flex: 1; border: none; height: 1px; background-color: black;">
             </div>
             {%- include selected_papers.html %}
