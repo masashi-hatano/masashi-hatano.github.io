@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-12-22
+date: 2023-12-18
 inline: true
 related_posts: false
 ---
 
-I have been selected as a scholarship reciepient of [Amano Institute of Technology Scholarships for Doctoral Programs in Graduate Schools](https://zai-amano.or.jp/en/scholarship-g_special)!
+I received the acceptance for the [JSPS Overseas Challenge Program for Young Researchers](https://www.jsps.go.jp/english/e-abc/index.html)!

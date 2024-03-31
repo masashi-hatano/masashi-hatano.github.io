@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-06-16
+date: 2023-02-19
 inline: true
 related_posts: false
 ---
 
-J'ai participé à la cérémonie de remise des diplômes ingénieurs à CentraleSupélec à Gif-sur-Yvette!
+I presented a poster at [VISAPP '23](https://visapp.scitevents.org/?y=2023) in Lisbon.

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-02-19
+date: 2023-02-16
 inline: true
 related_posts: false
 ---
 
-I presented a poster at [VISAPP '23](https://visapp.scitevents.org/?y=2023) in Lisbon.
+I visited the lab lead by [Prof. Vincent Frémont](https://sites.google.com/view/vincent-fremont-ecnantes/home) at Ecole Centrale de Nantes.

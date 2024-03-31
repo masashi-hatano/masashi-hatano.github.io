@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-03-12
+date: 2023-12-22
 inline: true
 related_posts: false
 ---
 
-I will be visiting at the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD studnet starting from this May!
+I have been selected as a scholarship reciepient of [Amano Institute of Technology Scholarships for Doctoral Programs in Graduate Schools](https://zai-amano.or.jp/en/scholarship-g_special)!
