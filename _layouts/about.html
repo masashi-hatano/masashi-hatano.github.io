@@ -49,11 +49,12 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+            <div style="display: flex; align-items: center;">
+              <h2 style="margin-right: 10px;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+              <hr style="flex: 1; border: none; height: 1px; background-color: black;">
+            </div>
             {%- include news.html limit=true %}
           {%- endif %}
-
-          <hr width="100%" size="2">
 
           <!-- Latest posts -->
           <!-- {% if page.latest_posts -%}
@@ -63,11 +64,12 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+            <div style="display: flex; align-items: center;">
+              <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+              <hr style="flex: 1; border: none; height: 1px; background-color: black;">
+            </div>
             {%- include selected_papers.html %}
           {%- endif %}
-
-          <hr width="100%" size="2">
 
           <!-- Social -->
           {%- if page.social %}
