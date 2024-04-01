@@ -8,7 +8,8 @@ middle_name:
 last_name: Hatano
 email: hatano1210@keio.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  I am a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) under the guidance of [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). 
+  Starting from this May, I will be visiting the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD student and working with [Prof. Dima Damen](https://dimadamen.github.io/).
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

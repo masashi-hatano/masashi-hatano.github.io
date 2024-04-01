@@ -43,13 +43,25 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
+            <!-- Social -->
+            {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+          </div>
+        {%- endif %}
           </div>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <div style="display: flex; align-items: center;">
               <h2 style="margin-right: 20px;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
-              <hr style="flex: 1; border: none; height: 1px; background-color: inherit;">
+              <hr style="flex: 1; border: none; height: 1px; color: inherit;">
             </div>
             {%- include news.html limit=true %}
           {%- endif %}
@@ -64,23 +76,9 @@ layout: default
           {% if page.selected_papers -%}
             <div style="display: flex; align-items: center;">
               <h2 style="margin-right: 20px;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
-              <hr style="flex: 1; border: none; height: 1px; background-color: inherit;">
+              <hr style="flex: 1; border: none; height: 1px; color: inherit;">
             </div>
             {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
           {%- endif %}
         </article>
 
