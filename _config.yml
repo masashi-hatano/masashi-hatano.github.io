@@ -8,12 +8,12 @@ middle_name:
 last_name: Hatano
 email: hatano1210@keio.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) under the guidance of [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). 
-  Starting from this May, I will be visiting the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD student and working with [Prof. Dima Damen](https://dimadamen.github.io/).
+  I am a PhD student at Keio University under the guidance of Prof. Hideo Saito. 
+  Starting from this May, I will be visiting the University of Bristol as a visiting PhD student and working with Prof. Dima Damen.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: masashi, hatano, keio, centralesupelec, computer vision, egocentric vision  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
