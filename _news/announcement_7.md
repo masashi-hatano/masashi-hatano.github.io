@@ -1,6 +1,4 @@
 ---
-layout: post
-title: JSPS Overseas Challenge Program for Young Researchers
 date: 2023-12-18
 inline: true
 related_posts: false

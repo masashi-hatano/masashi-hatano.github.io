@@ -1,6 +1,4 @@
 ---
-layout: post
-title: Prof. Vincent's Lab Visit
 date: 2023-02-16
 inline: true
 related_posts: false

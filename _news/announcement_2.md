@@ -1,6 +1,4 @@
 ---
-layout: post
-title: ECCV '22 Attendance
 date: 2022-10-24
 inline: true
 related_posts: false
