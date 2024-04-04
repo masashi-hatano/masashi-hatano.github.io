@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Research Visit at the University of Bristol
 date: 2024-03-12
 inline: true
 related_posts: false

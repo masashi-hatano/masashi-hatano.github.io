@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Presentation at VISAPP '23
 date: 2023-02-19
 inline: true
 related_posts: false

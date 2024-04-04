@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Acceptance at VISAPP '23
 date: 2022-12-07
 inline: true
 related_posts: false
