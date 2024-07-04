@@ -4,4 +4,4 @@ inline: true
 related_posts: false
 ---
 
-Started a 1-year research visiting at the [University of Bristol](https://uob-mavi.github.io/people/). :england:
+Started a 1-year research visiting at the [University of Bristol](https://uob-mavi.github.io/people/). :uk:
