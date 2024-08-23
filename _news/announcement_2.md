@@ -4,4 +4,4 @@ inline: true
 related_posts: false
 ---
 
-Attended [ECCV '22](https://eccv2022.ecva.net/) in Tel-Aviv. :israel:
+Attended [ECCV'22](https://eccv2022.ecva.net/) in Tel-Aviv. :israel:
