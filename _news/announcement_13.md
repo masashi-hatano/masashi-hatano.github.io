@@ -1,7 +1,7 @@
 ---
-date: 2024-08-20
+date: 2024-08-07
 inline: true
 related_posts: false
 ---
 
-One paper accepted at [HANDS](https://hands-workshop.org/workshop2024.html)@ECCV'24. :tada:
+One co-authored paper accepted at [MMSports](http://conferences.visionbib.com/2024/acmmm-mmsports-10-24-call.html)@ACMMM'24. :tada:
