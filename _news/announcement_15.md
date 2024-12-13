@@ -4,4 +4,4 @@ inline: true
 related_posts: false
 ---
 
-Visited at [VGG](https://www.robots.ox.ac.uk/~vgg/) in Oxford and presented my research! :uk:
+Visited [VGG at the University of Oxford](https://www.robots.ox.ac.uk/~vgg/) and presented my research! :uk:
