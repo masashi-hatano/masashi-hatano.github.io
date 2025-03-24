@@ -4,4 +4,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as a scholarship reciepient of [Amano Institute of Technology Scholarships for Doctoral Programs in Graduate Schools](https://zai-amano.or.jp/en/scholarship-g_special).
+Selected as a scholarship reciepient of [Amano Institute of Technology Scholarships for Doctoral Programs in Graduate Schools](https://zai-amano.or.jp/scholarship/scholarship-g/g-2023/).
