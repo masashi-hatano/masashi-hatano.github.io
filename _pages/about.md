@@ -25,7 +25,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) under the guidance of [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). Starting from this May, I conduct research at the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD student and working with [Prof. Dima Damen](https://dimadamen.github.io/).
+I am a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) under the guidance of [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). During May 2024 and May 2025, I conduct research at the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD student and working with [Prof. Dima Damen](https://dimadamen.github.io/).
 
 My research interests span the broad area of machine learning, computer vision, egocentric vision, future forecasting, multimodal learning, and action recognition.
 
