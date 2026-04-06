@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Masashi
 middle_name: 
 last_name: Hatano
-email: hatano1210@keio.jp
+email: mhatano@iis.u-tokyo.ac.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a PhD student at Keio University under the guidance of Prof. Hideo Saito. 
   I visited the University of Bristol from May 2024 for 1 year as a visiting PhD student and working with Prof. Dima Damen.
@@ -74,7 +74,7 @@ x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: masashi-hatano-3r445gre901 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: DNhPag0AAAAJ # your Google Scholar ID
+scholar_userid: Z5-MiioAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID

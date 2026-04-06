@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. student at Keio University
+subtitle: Postdoc at The University of Tokyo
 
 profile:
   align: right
@@ -25,8 +25,10 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) under the guidance of [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). During May 2024 and May 2025, I conduct research at the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD student and working with [Prof. Dima Damen](https://dimadamen.github.io/).
+I am a Postdoc at [The University of Tokyo](https://www.ut-vision.org/ja/sato-lab/) working with [Prof. Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/).
 
-My research interests span the broad area of machine learning, computer vision, egocentric vision, future forecasting, multimodal learning, and action recognition.
+Previously, I was a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) supervised by [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). During May 2024 and May 2025, I conducted research at the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD student and working with [Prof. Dima Damen](https://dimadamen.github.io/).
+
+My research interests span the broad area of machine learning, computer vision, egocentric vision, human motion understanding, and future forecasting.
 
 In 2023, I obtained a Master's degree in computer science from [Keio University](https://www.keio.ac.jp/en/), Japan, and an engineering degree from [CentraleSupélec](https://www.centralesupelec.fr/en), France, as part of a double degree program.
