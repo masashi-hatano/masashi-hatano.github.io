@@ -1,6 +1,22 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Source Serif 4', serif;
+  font-weight: 400;
+}
 
 // Typography
 
@@ -24,6 +40,7 @@ hr {
 }
 
 table {
+
   td,
   th {
     font-size: 1rem;
@@ -50,7 +67,8 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
-  &.table-bordered{
+
+  &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
 }
@@ -80,7 +98,12 @@ blockquote {
       color: var(--global-tip-block-text);
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: var(--global-tip-block-title);
     }
   }
@@ -93,7 +116,12 @@ blockquote {
       color: var(--global-warning-block-text);
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: var(--global-warning-block-title);
     }
   }
@@ -106,7 +134,12 @@ blockquote {
       color: var(--global-danger-block-text);
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: var(--global-danger-block-title);
     }
   }
@@ -383,11 +416,11 @@ blockquote {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.wechat-modal > img {
+.wechat-modal>img {
   display: block;
   position: relative;
   top: 50%;
@@ -397,8 +430,8 @@ blockquote {
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 400px){
-  .wechat-modal > img {
+@media only screen and (max-width: 400px) {
+  .wechat-modal>img {
     width: 100%;
   }
 }
@@ -693,7 +726,9 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 1.05rem;
       }
 
       .author {
@@ -727,21 +762,29 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.8rem;
+          padding-right: 0.8rem;
+          padding-top: 0.3rem;
+          padding-bottom: 0.3rem;
           margin-left: 0;
+          margin-bottom: 0.3rem;
+          font-size: 0.75rem;
+          border-radius: 10px;
+          letter-spacing: 0.03em;
+          transition: all 0.2s ease-in-out;
 
           &:hover {
-            color: var(--global-theme-color);
+            color: var(--global-bg-color);
+            background-color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            text-decoration: none;
           }
         }
       }
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: $black-color;
@@ -977,7 +1020,8 @@ progress::-moz-progress-bar {
     }
   }
 
-  .dropdown-item.active, .dropdown-item:active {
+  .dropdown-item.active,
+  .dropdown-item:active {
     background-color: var(--global-hover-color);
     color: var(--global-hover-text-color) !important;
 
@@ -1019,6 +1063,7 @@ nav[data-toggle="toc"] {
 
 /* small screens */
 @media (max-width: 576px) {
+
   /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
     visibility: hidden;
@@ -1070,4 +1115,38 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+}
+
+// Custom about page styles
+.post-header {
+  margin-bottom: 2rem;
+
+  .post-title {
+    font-size: 2.8rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .desc {
+    font-size: 1rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+    margin-bottom: 0.8rem;
+  }
+
+  .header-social {
+    .contact-icons {
+      font-size: 2.5rem;
+      text-align: left;
+    }
+  }
+}
+
+.profile {
+  img {
+    border-radius: 50%;
+  }
+}
+
+p {
+  line-height: 1.9;
 }

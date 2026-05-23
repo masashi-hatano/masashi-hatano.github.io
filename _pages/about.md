@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
-    # Hyper Vision Research Laboratory
-    # (HVRL) @ Keio Univ.
+    # Sato Lab, The University of Tokyo
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
