@@ -7,7 +7,12 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     scroll-margin-top: 66px;
   }
 }
@@ -35,12 +40,52 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+// Research interest tags
+.research-section {
+  .research-label {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.research-interests {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+
+  .interest-tag {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    margin: 0.2rem 0.15rem;
+    border-radius: 10px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    border: 1.5px solid var(--global-theme-color);
+  }
+}
+
+// Miscellaneous
+.miscellaneous {
+  ul.plain-list {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
 
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+
+// Per-entry preview crop overrides
+.row:has(#EgoH4) img.preview {
+  object-position: top;
+}
+
+.row:has(#D-EventEgo) img.preview {
+  object-position: right;
+}
 
 
 /*****************************************************************************

@@ -7,7 +7,7 @@ subtitle: Postdoc at The University of Tokyo
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: 
     # Sato Lab, The University of Tokyo
 
@@ -28,6 +28,15 @@ I am a Postdoc at [The University of Tokyo](https://www.ut-vision.org/ja/sato-la
 
 Previously, I was a PhD student at [Keio University](http://www.hvrl.ics.keio.ac.jp/) supervised by [Prof. Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao). During May 2024 and May 2025, I conducted research at the [University of Bristol](https://uob-mavi.github.io/people/) as a visiting PhD student and working with [Prof. Dima Damen](https://dimadamen.github.io/).
 
-My research interests span the broad area of machine learning, computer vision, egocentric vision, human motion understanding, and future forecasting.
+<div class="research-section">
+<p class="research-label">My research interests span:</p>
+<div class="research-interests">
+  <span class="interest-tag">Machine Learning</span>
+  <span class="interest-tag">Computer Vision</span>
+  <span class="interest-tag">Egocentric Vision</span>
+  <span class="interest-tag">Human Motion Understanding</span>
+  <span class="interest-tag">Future Forecasting</span>
+</div>
+</div>
 
 In 2023, I obtained a Master's degree in computer science from [Keio University](https://www.keio.ac.jp/en/), Japan, and an engineering degree from [CentraleSupélec](https://www.centralesupelec.fr/en), France, as part of a double degree program.
