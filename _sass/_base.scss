@@ -1157,3 +1157,19 @@ nav[data-toggle="toc"] {
 p {
   line-height: 1.9;
 }
+
+// New badge for recent papers
+.new-badge {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  margin-left: 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background-color: #e53935;
+  color: white;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}

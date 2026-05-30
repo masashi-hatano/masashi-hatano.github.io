@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: masashi-hatano # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+x_username: masashihtn # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: masashi-hatano-3r445gre901 # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -309,7 +309,7 @@ enable_publication_badges:
   dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, new, pdf, poster, preview, selected, slides, supp, video, website]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 4  # leave blank to always show all authors

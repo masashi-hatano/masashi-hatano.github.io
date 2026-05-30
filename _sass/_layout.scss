@@ -63,18 +63,181 @@ body.sticky-bottom-footer {
   }
 }
 
+// Language proficiency bars
+.language-bars {
+  margin-top: 0.25rem;
+  padding-left: 1.5rem;
+
+  .lang-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.15rem;
+
+    .lang-name {
+      width: 75px;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+
+    .lang-segments {
+      display: flex;
+      gap: 5px;
+      flex: 1;
+
+      .seg {
+        flex: 1;
+        height: 10px;
+        border-radius: 5px;
+        background-color: rgba(128, 128, 128, 0.18);
+
+        &.filled:nth-child(1) {
+          background-color: rgba(13, 148, 136, 0.55);
+        }
+
+        &.filled:nth-child(2) {
+          background-color: rgba(13, 148, 136, 1.0);
+        }
+
+        &.filled:nth-child(5) {
+          background-color: rgba(245, 158, 11, 0.55);
+        }
+
+        &.filled:nth-child(6) {
+          background-color: rgba(245, 158, 11, 1.0);
+        }
+
+        &.filled:nth-child(3) {
+          background-color: rgba(14, 165, 233, 0.55);
+        }
+
+        &.filled:nth-child(4) {
+          background-color: rgba(14, 165, 233, 1.0);
+        }
+      }
+    }
+
+    .lang-level {
+      width: 24px;
+      text-align: right;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--global-text-color-light);
+      flex-shrink: 0;
+    }
+  }
+}
+
 // Miscellaneous
 .miscellaneous {
   ul.plain-list {
     list-style: none;
     padding-left: 0;
+
+    li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+}
+
+.misc-tag {
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 0.1rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.tag-honor {
+  background-color: rgba(150, 80, 200, 0.15);
+  color: #7a3fb0;
+  border: 1px solid rgba(150, 80, 200, 0.4);
+}
+
+.tag-award {
+  background-color: rgba(205, 163, 70, 0.15);
+  color: #a07c2a;
+  border: 1px solid rgba(205, 163, 70, 0.5);
+}
+
+.tag-grant {
+  background-color: rgba(70, 110, 170, 0.2);
+  color: #3a5f9e;
+  border: 1px solid rgba(70, 110, 170, 0.4);
+}
+
+.tag-scholarship {
+  background-color: rgba(58, 130, 80, 0.2);
+  color: #2d7048;
+  border: 1px solid rgba(58, 130, 80, 0.4);
+}
+
+html[data-theme='dark'] {
+  .tag-honor {
+    background-color: rgba(150, 80, 200, 0.25);
+    color: #c07eff;
+    border-color: rgba(150, 80, 200, 0.5);
+  }
+
+  .tag-award {
+    background-color: rgba(205, 163, 70, 0.2);
+    color: #e0b84a;
+    border-color: rgba(205, 163, 70, 0.4);
+  }
+
+  .tag-grant {
+    background-color: rgba(70, 110, 170, 0.25);
+    color: #7aaae8;
+    border-color: rgba(70, 110, 170, 0.5);
+  }
+
+  .tag-scholarship {
+    background-color: rgba(58, 130, 80, 0.25);
+    color: #6ecf8a;
+    border-color: rgba(58, 130, 80, 0.5);
   }
 }
 
 
+// News table
+.news {
+  table {
+
+    td,
+    th {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+
+// See more news link
+.see-more-link {
+  text-align: right;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/
+
 
 // TODO: redefine publications layout.
 

@@ -56,24 +56,20 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled -%}
-    <div style="display: flex; align-items: center;">
-      <h2 style="margin-right: 20px;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+    <div style="display: flex; align-items: center; margin-top: 2rem;">
+      <h2 style="margin-right: 20px;">News</h2>
       <hr style="flex: 1; border: none; height: 0.5px; color: inherit; background-color: currentColor;">
     </div>
     {%- include news.html limit=true %}
+    <div class="see-more-link">
+      <a href="{{ '/news/' | relative_url }}">See more news...</a>
+    </div>
     {%- endif %}
-
-    <!-- Latest posts -->
-    <!-- {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %} -->
 
     <!-- Selected papers -->
     {% if page.selected_papers -%}
-    <div style="display: flex; align-items: center;">
-      <h2 style="margin-right: 20px;"><a href="{{ '/publications/' | relative_url }}"
-          style="color: inherit;">Publications</a></h2>
+    <div style="display: flex; align-items: center; margin-top: 2rem; margin-bottom: -1rem">
+      <h2 style="margin-right: 20px;">Publications</h2>
       <hr style="flex: 1; border: none; height: 0.5px; color: inherit; background-color: currentColor;">
     </div>
     {%- include selected_papers.html %}
@@ -81,7 +77,7 @@ layout: default
 
     <!-- Miscellaneous -->
     {% if page.miscellaneous and site.miscellaneous.enabled -%}
-    <div style="display: flex; align-items: center;">
+    <div style="display: flex; align-items: center; margin-top: 2rem;">
       <h2 style="margin-right: 20px;">Miscellaneous</h2>
       <hr style="flex: 1; border: none; height: 0.5px; color: inherit; background-color: currentColor;">
     </div>
