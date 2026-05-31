@@ -1,3 +1,14 @@
+// Spotlight effect for publication cards
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('ol.bibliography li').forEach(function(card) {
+    card.addEventListener('mousemove', function(e) {
+      var rect = card.getBoundingClientRect();
+      card.style.setProperty('--mouse-x', (e.clientX - rect.left) + 'px');
+      card.style.setProperty('--mouse-y', (e.clientY - rect.top) + 'px');
+    });
+  });
+});
+
 $(document).ready(function() {
   // add toggle functionality to abstract and bibtex buttons
   $('a.abstract').click(function() {

@@ -16,6 +16,8 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
+  --global-card-hover-bg-color: rgba(0, 0, 0, 0.015);
+  --global-theme-color-shadow: #{rgba($blue-color, 0.15)};
   --section-divider-end: #{rgba($blue-color, 0)};
 
   --global-tip-block: #42b983;
@@ -32,12 +34,12 @@
   --global-danger-block-title: #c00;
 
   .fa-sun {
-    display : none;
+    display: none;
   }
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 
   .repo-img-light {
@@ -62,6 +64,8 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-card-hover-bg-color: rgba(255, 255, 255, 0.03);
+  --global-theme-color-shadow: #{rgba($cyan-color, 0.2)};
   --section-divider-end: #{rgba($cyan-color, 0)};
 
   --global-tip-block: #42b983;
@@ -80,10 +84,10 @@ html[data-theme='dark'] {
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
   .fa-moon {
-    display : none;
+    display: none;
   }
 
   .repo-img-light {

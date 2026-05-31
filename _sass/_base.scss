@@ -287,6 +287,7 @@ blockquote {
   }
 
   .navbar-brand {
+    font-family: 'Playfair Display', serif;
     color: var(--global-text-color);
   }
 
@@ -682,7 +683,7 @@ footer.sticky-bottom {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: 0.5rem;
     text-align: right;
   }
 
@@ -692,7 +693,38 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 8px;
+      padding: 0.75rem;
+      background-color: var(--global-card-hover-bg-color);
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          280px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+          var(--global-theme-color-shadow),
+          transparent 70%
+        );
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        border-radius: inherit;
+      }
+
+      &:hover {
+        border-color: var(--global-theme-color);
+        box-shadow: 0 0 0 2px var(--global-theme-color-shadow);
+
+        &::before {
+          opacity: 1;
+        }
+      }
 
       .preview {
         width: 100%;

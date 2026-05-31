@@ -84,6 +84,7 @@ body.sticky-bottom-footer {
       display: flex;
       gap: 5px;
       flex: 1;
+      max-width: 180px;
 
       .seg {
         flex: 1;
