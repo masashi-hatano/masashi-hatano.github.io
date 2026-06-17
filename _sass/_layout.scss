@@ -239,6 +239,12 @@ html[data-theme='dark'] {
  * Publications
  ******************************************************************************/
 
+.btn-muted {
+  opacity: 0.35;
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
 .pub-venue-wrap {
   margin-bottom: 0.35rem;
 }
