@@ -273,6 +273,10 @@ html[data-theme='dark'] {
   object-position: right;
 }
 
+.row:has(#hand-visibility-detector) img.preview {
+  object-position: bottom;
+}
+
 
 /*****************************************************************************
 * Projects

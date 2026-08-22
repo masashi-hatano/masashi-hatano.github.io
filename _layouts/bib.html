@@ -161,6 +161,12 @@
       {%- elsif entry.website != nil %}
       <span class="btn btn-sm z-depth-0 btn-muted" aria-disabled="true">🌐 Project Page</span>
       {%- endif %}
+      {%- assign _demo = entry.demo | strip %}
+      {%- if _demo != "" %}
+      <a href="{{ _demo }}" class="btn btn-sm z-depth-0" role="button">🤗 Demo</a>
+      {%- elsif entry.demo != nil %}
+      <span class="btn btn-sm z-depth-0 btn-muted" aria-disabled="true">🤗 Demo</span>
+      {%- endif %}
     </div>
 
     {% if site.enable_publication_badges %}
